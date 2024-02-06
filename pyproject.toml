@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mct52_QualifAI"
+version = "0.0.1"
+authors = [
+  { name="Matthew Titmas", email="mct52@cam.ac.uk" },
+]
+description = "A package for predicting qualifying cutoff times"
+readme = "README.md"
+requires-python = "==3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pyaedt==0.4.7",
+    "Django==3.2.8",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MattTitmas/QualifAI"
+"Bug Tracker" = "https://github.com/MattTitmas/QualifAI/issues"
